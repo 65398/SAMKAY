@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información General - Consultoría Ambiental</title>
+    <link rel="stylesheet" href="informaciongeneral.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="Logo de la empresa">
+        </div>
+        <nav>
+            <ul>
+                <a href="#informaciongeneral">Información General</a>
+            <a href="#info-servicios">Servicios</a>
+            <a href="#capacitaciones">Capacitaciones</a>
+            <a href="#experiencias">Experiencias</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-us">
+
+            <section class="banner">
+                <div class="overlay">
+                    <div class="banner-images">
+                        <img src="imagenes/equipo.jpeg" alt="Imagen 1">
+                        <img src="imagenes/equipo2.jpeg" alt="Imagen 2">
+                        <img src="imagenes/equipo3.jpeg" alt="Imagen 3">
+                        <img src="imagenes/equipo6.jpeg" alt="Imagen 4">
+                        <img src="imagenes/equipo5.jpeg" alt="Imagen 5">
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <div class="info-box">
+                    <h1>Quiénes Somos</h1>
+                    <p>Somos una consultoría ambiental comprometida con el desarrollo sostenible y la protección del medio ambiente. Nuestro equipo está formado por expertos en diferentes áreas del ámbito ambiental, con una amplia trayectoria en proyectos de impacto positivo en el entorno.</p>
+                    <p><strong>Misión:</strong> Promover un desarrollo ambiental sostenible a través de soluciones innovadoras y prácticas en la consultoría ambiental.</p>
+                    <p><strong>Visión:</strong> Ser una consultoría líder en la región, reconocida por nuestras contribuciones al bienestar ambiental y la calidad de vida.</p>
+                    <p><strong>Valores:</strong> Integridad, responsabilidad, sostenibilidad y trabajo en equipo.</p>
+                </div>
+
+                <!-- Sección de imágenes organizadas en filas -->
+              
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <h2>Contáctanos</h2>
+                    <p><strong>Dirección:</strong>Manta</p>
+                    <p><strong>Teléfono:</strong> +593 123 456 789</p>
+                    <p><strong>Email:</strong> contacto@consultoriaambiental.com</p>
+                    <form action="submit_contact" method="POST">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Correo:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Teléfono:</label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Consultoría Ambiental. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

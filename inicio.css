@@ -1,0 +1,159 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f0;
+    color: #333;
+     font-family: 'Arial'
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-height: 100px /* Ajusta el tamaño del logo según tus necesidades */
+}
+
+
+nav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(0, 77, 0, 0.5); /* Un verde más oscuro para el hover */
+}
+
+
+/* Banner principal */
+.banner {
+    background: url('imagenes/sistema.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.banner h2 {
+    font-size: 48px;
+    margin-bottom: 1rem;
+}
+
+.banner .btn-cta {
+    background-color: #228B22;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.banner .btn-cta:hover {
+    background-color: #006400;
+}
+
+/* Breve Descripción */
+.descripcion {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.descripcion h3 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+    color: #006400;
+}
+
+.descripcion p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Sección de Servicios */
+.servicios {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.servicios h3 {
+    font-size: 36px;
+    margin-bottom: 2rem;
+    color: #006400;
+}
+
+.servicio-item {
+    display: inline-block;
+    width: 30%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.servicio-item img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.servicio-item h4 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.servicio-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Testimonios */
+.testimonios {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonios h3 {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+    color: #006400;
+}
+
+.testimonios p {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Pie de página */
+footer {
+    background-color:rgb(0, 128, 0, 0.5); 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+

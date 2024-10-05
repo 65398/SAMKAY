@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    display: flex;
+    flex-direction: column; /* Coloca el contenido de manera vertical */
+    min-height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f0;
+    color: #333;
+     font-family: 'Arial'
+    
+}
+
+
+/* Contenedor para el contenido */
+.container {
+    flex: 1; /* Permite que el contenedor ocupe el espacio disponible */
+}
+
+/* Encabezado */
+/* Estilos generales del encabezado */
+/* Estilos generales del encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 50px;
+    position: relative;
+}
+
+.logo {
+    width: 100px; /* Tamaño del logo */
+}
+
+
+/* Menú */
+
+nav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(0, 77, 0, 0.5); /* Un verde más oscuro para el hover */
+}
+
+/* Sección central */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    
+}
+
+.circle img {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+
+
+/* Texto bajo los círculos */
+.circle-text {
+    text-align: center;
+    margin-top: 15px;
+    color: #006400;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: rgb(0, 128, 0, 0.5); 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
