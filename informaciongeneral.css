@@ -19,6 +19,9 @@ header {
     padding: 10px 50px;
     position: relative;
 }
+.logo {
+    width: 100px; /* Tamaño del logo */
+}
 
 header .logo img {
     max-height: 100px;
@@ -58,13 +61,13 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1px;
+    gap: 0.5px;
     flex-wrap: wrap;
 }
 
 .banner-images img {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     border-radius: 10px;
     transition: transform 0.1s ease-in-out;
 }

@@ -15,6 +15,9 @@ body {
 /* Contenedor para el contenido */
 .container {
     flex: 1; /* Permite que el contenedor ocupe el espacio disponible */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 /* Encabezado */
@@ -59,8 +62,8 @@ nav a:hover {
 }
 
 .circle {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: white;
     display: flex;
@@ -68,6 +71,9 @@ nav a:hover {
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+    overflow: hidden;
+    margin: 20px;
+    position: relative;
     
 }
 
@@ -99,3 +105,63 @@ footer {
     margin-top: 50px;
 }
 
+
+
+
+
+
+/* Efecto de zoom al hacer hover */
+.circle:hover img {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen */
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.circle-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 20px;
+}
+
+.double-images {
+    position: relative;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.image2 {
+    opacity: 0.7; /* Ajusta la opacidad de la segunda imagen para que ambas se vean */
+    mix-blend-mode: multiply; /* Opcional: añade efectos de mezcla */
+}
+
+.circle-text {
+    text-align: center;
+    margin-top: 10px;
+    color: #2e7d32;
+}
